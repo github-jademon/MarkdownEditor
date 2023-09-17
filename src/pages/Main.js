@@ -9,15 +9,6 @@ const Write = () => {
     setMd(value);
   }
 
-  //https://blog.joostory.net/405
-
-  // return (
-  //   <div className="container">
-  //     <div className="title">Write</div>
-  //     <Editor value={desc} onChange={onEditorChange} />
-  //   </div>
-  // );
-
   return (
     <>
       <div className="main container">

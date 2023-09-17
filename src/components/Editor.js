@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-// import MDEditor from "@uiw/react-md-editor";
 
 const Editor = ({ value, onChange, setLeftSide }) => {
   console.log(value);
