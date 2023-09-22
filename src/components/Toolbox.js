@@ -38,14 +38,27 @@ const Toolbox = ({ onChange, value }) => {
         <div className="button" onClick={() => onClick("__underscore__")}>
           u
         </div>
+        <div className="button" onClick={() => onClick("> quotation")}>
+          q
+        </div>
+        <div className="button" onClick={() => onClick("`code`")}>
+          code
+        </div>
         <div
           className="button"
           onClick={() => onClick("\n```text\npreview\n```\n")}
         >
           pre
         </div>
-        <div className="button" onClick={() => onClick("`code`")}>
-          code
+        <div
+          className="button"
+          onClick={() =>
+            onClick(
+              "\n| title1 | title2 | title3 |\n| --- | --- | --- |\n| 1 | 2 | 3 |\n| 4 | 5 | 6 |\n| 7 | 8 | 9 |\n"
+            )
+          }
+        >
+          table
         </div>
       </div>
     </div>

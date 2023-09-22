@@ -120,3 +120,20 @@ textarea,
 code {
   white-space: pre-line;
 }
+
+table {
+  width: auto;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+thead td {
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}
