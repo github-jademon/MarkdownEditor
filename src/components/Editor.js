@@ -13,7 +13,6 @@ const Editor = ({ value, onChange, setLeftSide }) => {
         <div className="title col-center">Code</div>
       </div>
       <div className="editor">
-        {/* <MDEditor height={600} value={value} onChange={onChange} /> */}
         <textarea value={value} onChange={(e) => onChange(e.target.value)} />
       </div>
     </div>
