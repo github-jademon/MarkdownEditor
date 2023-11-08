@@ -6,7 +6,7 @@ import { Header } from "./components";
 function App() {
   return (
     <div className="app">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="app-container container">
           <Header />
           <Routes>
